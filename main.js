@@ -78,9 +78,9 @@ function checkForHole(field) {
 
 //PROGRAM START
 
-//myField.print()
-let height = 6// prompt('height?');
-let width = 6//prompt('width?');
+
+let height = prompt('height?');
+let width = prompt('width?');
 
 
 myField.arrayField = Field.generateField(height,width);
