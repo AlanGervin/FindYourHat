@@ -70,7 +70,7 @@ const myField = new Field([
 function checkForHole(field) {
     let space = field.arrayField[field.playerPosition[1]][field.playerPosition[0]];
     if (space == 'O') {
-        console.log("You fell in a whole you stupid bitch");
+        console.log("You fell in a whole.");
         gameend=true;
     }
 
